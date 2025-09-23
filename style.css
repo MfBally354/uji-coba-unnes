@@ -1,0 +1,109 @@
+/* ========== Umum untuk kedua halaman ========== */
+body {
+    background-color: #a5a5a5;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.center { text-align: center; }
+.welcome { color: #2d4181; }
+#Judul {
+    background-color: #ffd965;
+    color: red;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+.subjudul {
+    color: rgb(0,0,0);
+    font-size: 25px;
+}
+
+/* ========== Bagian BELAJAR.HTML (tabel & konten) ========== */
+.content-container {
+    border-style: solid;
+    background-color: white;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+td {
+    padding: 8px;
+    background-color: #92d050;
+}
+.logout-outside {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.logout-btn-plain {
+    background-color: #f0f0f0;
+    color: black;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* ========== Bagian LOGIN.HTML (layout login) ========== */
+.login-container {
+    border: 2px solid #333;
+    border-radius: 15px;
+    background-color: white;
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.garuda-section {
+    flex-shrink: 0;
+    border-right: 10px solid yellow;  
+    padding-right: 10px;     
+    margin-right: 10px; 
+}
+.garuda-section img {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.form-section {
+    flex: 1;
+    padding-left: 20px;
+}
+.form-section p { margin: 10px 0; }
+.form-section h3 { margin-top: 0; }
+.input-field-plain {
+    padding: 5px;
+    width: 250px;
+    border: 1px solid black;
+    font-size: 14px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.login-btn-plain {
+    background-color: #f0f0f0;
+    color: black;
+    padding: 5px 15px;
+    border: 1px solid #333;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.login-btn-plain:hover { background-color: #e0e0e0; }
+label { font-weight: normal; color: black; }
