@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Pemrograman Web</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Logo, Judul dan Selamat Datang di tengah -->
+    <div class="center">
+        <img src="logo.png" alt="Logo UNNES" width="150" height="150">
+        
+        <!-- Memanggil ID Judul pada tag h1 -->
+        <h1 id="Judul">HALAMAN LOGIN</h1>
+        <b class="welcome">Selamat datang di Matakuliah Pemrograman Web</b>
+    </div>
+
+    <!-- Form Login dengan border container dengan rounded corners -->
+    <div class="login-container">
+        <!-- Gambar Garuda di sebelah kiri -->
+        <div class="garuda-section">
+            <img src="garuda.png" alt="Garuda UNNES">
+        </div>
+        
+        <!-- Form Login di sebelah kanan -->
+        <div class="form-section">
+            <h3 class="subjudul"><u>Login</u></h3>
+            <p style="color: blue;">Silahkan masukkan NIM dan Password:</p>
+            
+            <label>NIM:</label><br>
+            <input type="text" class="input-field-plain"><br>
+            <label>Password:</label><br>
+            <input type="password" class="input-field-plain"><br><br>
+            
+            <!-- Tombol Login -->
+            <button onclick="document.location='belajar.html'" class="login-btn-plain">Login</button>
+        </div>
+    </div>
+</body>
+</html>
