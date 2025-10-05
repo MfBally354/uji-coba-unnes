@@ -88,7 +88,24 @@
     </div>
 
     <div class="logout-outside">
-        <button onclick="document.location='index.html'" class="logout-btn-plain">Logout</button>
+        <button onclick="document.location='login.html'" class="logout-btn-plain">Logout</button>
     </div>
+
+<div class="content-container">
+    <h3 class="subjudul"><u>Praktikum JavaScript Output</u></h3>
+    
+    <p><b>1. innerHTML:</b></p>
+    <p id="demo"></p>
+
+    <p><b>5. Print:</b></p>
+    <button onclick="window.print()">Cetak Halaman Ini</button>
+<script>
+    document.write(6+5);
+    document.getElementById("demo").innerHTML = 6+5; 
+    window.alert("Login telah berhasil!");
+    console.log("Pesan ini hanya muncul di konsol browser.");
+</script>
+</div>
+       
 </body>
 </html>
