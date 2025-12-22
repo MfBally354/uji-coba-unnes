@@ -44,6 +44,7 @@ Halaman pertama yang ditampilkan dengan fitur:
 - Gambar Garuda sebagai dekorasi
 - Tombol login yang mengarah ke `belajar.html`
 - Layout dua kolom (gambar Garuda + form)
+<img width="1920" height="1080" alt="Screenshot (583)" src="https://github.com/user-attachments/assets/93fb8bf9-ade5-4fe2-8236-979f8bf2ea23" />
 
 ### 2. belajar.html (Halaman Materi)
 Halaman utama setelah login yang berisi:
@@ -53,6 +54,7 @@ Halaman utama setelah login yang berisi:
 - Praktikum JavaScript dengan berbagai metode output
 - Tombol logout untuk kembali ke halaman login
 - Tombol print untuk mencetak halaman
+<img width="1920" height="1080" alt="Screenshot (584)" src="https://github.com/user-attachments/assets/04f520cf-b3fa-44e5-b6e8-0dcfd32a20b8" />
 
 ### 3. style.css (Stylesheet)
 File CSS yang mengatur styling untuk:
